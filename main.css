@@ -1,0 +1,96 @@
+.SrvHeader {
+    margin-top: 0px;
+}
+h3 {
+    padding-top: 0px;
+    text-align: left;
+}
+.LangSelect {
+    position: relative;
+    text-align: right;
+    z-index: 9999;
+    top: 100px;
+}
+.LangSelect ul{
+    padding: 10px;
+}
+.Survey {
+    margin-top: 0px;
+    padding: 10px;
+}
+.Span {
+    margin-right: 0px;
+    padding: 0px;
+}
+.ContentCard {
+    margin-top: 0px;
+}
+.Point07 .ResponseSet {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
+    background-size: contain !important;
+}
+.Point07 td.Mobile.Label.Right:after {
+    content: none;
+    white-space: normal;
+}
+.Point07 td.Mobile.Label.Left:before {
+    content: none;
+    white-space: normal;
+}
+.Point07.LH .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+    max-width: 60px !important;
+}
+td.Mobile.Label.Left {
+    margin-left: -2%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .NavSection input, .NavSection button {
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .RatedQuest .Selector .Wrapper {
+        width: 1.1em !important;
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .buttonshape .RatedQuest .Selector .Wrapper {
+        width: 1.1em !important;
+        height: 1.1em !important;
+        border-radius: 20px !important;
+        line-height: 2.1em;
+        padding-top: 0px !important;
+
+    }
+    .Span {
+       
+    }
+    .Point07 .ResponseSet {
+        margin: 0;
+    }
+    .LangSelect {
+        top: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
