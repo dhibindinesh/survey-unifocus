@@ -43,7 +43,7 @@ h3 {
     white-space: normal;
 }
 .Point07.LH .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-    max-width: 60px !important;
+    width: auto;
 }
 td.Mobile.Label.Left {
     margin-left: -2%;
@@ -95,6 +95,29 @@ td.Mobile.Label.Left {
         top: 100px;
     }
     
+}
+@media (min-width: 1000px) {
+    .DemoQuest .Span, .RatedQuest .RatedQuest {
+        width: 37%;
+    }
+    .Point07 .RatedSection .RatedQuest td.Selector {
+       width: auto;
+    }
+    td.Label.Center {
+        max-width: 60px;
+    }
+    td.Selector {
+        
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .buttonshape .RatedQuest .Selector .Wrapper {
+       margin: 0 auto;
+    }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .RatedQuest .Selector .Wrapper {
+        margin: 0 auto;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
