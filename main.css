@@ -48,6 +48,9 @@ h3 {
 td.Mobile.Label.Left {
     margin-left: -2%;
 }
+.PRSection .EmojiRated .DemoResp, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector, .DemoQuest .EmojiRated .DemoResp {
+
+}   
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -98,7 +101,7 @@ td.Mobile.Label.Left {
 }
 @media (min-width: 1000px) {
     .DemoQuest .Span, .RatedQuest .RatedQuest {
-        width: 37%;
+        width: 55%;
     }
     .Point07 .RatedSection .RatedQuest td.Selector {
        width: auto;
