@@ -32,14 +32,12 @@ h3 {
     margin-right: 0px;
 }
 .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
-    background-size: contain !important;
-    height: 35px;
-    width: 35px;
+    height: 35px !important;
+    width: 35px !important;
+    background-size: 100% 100% !important;
 }
 .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper:hover {
     color: transparent !important;
-    height: 35px !important;
-    width: 35px !important;
 }
 .Point07 td.Mobile.Label.Right:after {
     content: none;
