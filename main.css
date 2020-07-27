@@ -31,15 +31,7 @@ h3 {
     margin-left: 0px;
     margin-right: 0px;
 }
-.Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-    height: 35px !important;
-    width: 35px !important;
-}
-.Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
-    height: 35px !important;
-    width: 35px !important;
-    background-size: 100% 100% !important;
-}
+
 .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper:hover {
     color: transparent !important;
 }
@@ -81,6 +73,11 @@ td.Mobile.Label.Left {
         padding-top: 0px !important;
 
     }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+        height: auto !important;
+        width: auto !important;
+    }
+    
     .Span {
        
     }
@@ -90,6 +87,10 @@ td.Mobile.Label.Left {
     .LangSelect {
         top: 0px;
     }
+    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
+        height: auto !important;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -97,12 +98,27 @@ td.Mobile.Label.Left {
     .LangSelect {
         top: 0px;
     }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+        height: auto !important;
+        width: auto !important;
+    }
+    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
+        height: auto !important;
+        background-size: 100% 100% !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .LangSelect {
         top: 0px;
+    }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
+    }
+    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
+       
     }
 }
 
@@ -116,6 +132,10 @@ td.Mobile.Label.Left {
         font-size: .8em;
     }
     .Span {
+    }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
     }
 }
 @media (min-width: 1000px) {
