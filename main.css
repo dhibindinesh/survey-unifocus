@@ -33,6 +33,13 @@ h3 {
 }
 .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
     background-size: contain !important;
+    height: 35px;
+    width: 35px;
+}
+.Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper:hover {
+    color: transparent !important;
+    height: 35px !important;
+    width: 35px !important;
 }
 .Point07 td.Mobile.Label.Right:after {
     content: none;
@@ -51,6 +58,11 @@ td.Mobile.Label.Left {
 .PRSection .EmojiRated .DemoResp, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector, .DemoQuest .EmojiRated .DemoResp {
 
 }   
+.Point07.HL .EmojiRated .RatedQuest .Selector div {
+    visibility: visible !important;
+    color: transparent;
+    background-color: transparent !important;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
