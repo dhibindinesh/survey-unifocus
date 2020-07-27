@@ -31,6 +31,10 @@ h3 {
     margin-left: 0px;
     margin-right: 0px;
 }
+.Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+    height: 35px !important;
+    width: 35px !important;
+}
 .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
     height: 35px !important;
     width: 35px !important;
@@ -107,9 +111,15 @@ td.Mobile.Label.Left {
     .LangSelect {
         top: 100px;
     }
-    
+    td.Label.Center {
+        max-width: 60px;
+        font-size: .8em;
+    }
+    .Span {
+    }
 }
 @media (min-width: 1000px) {
+    
     .DemoQuest .Span, .RatedQuest .RatedQuest {
         width: 55%;
     }
