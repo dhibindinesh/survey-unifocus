@@ -49,49 +49,19 @@ h3 {
 td.Mobile.Label.Left {
     margin-left: -2%;
 }
-.PRSection .EmojiRated .DemoResp, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector, .DemoQuest .EmojiRated .DemoResp {
-
-}   
+  
 .Point07.HL .EmojiRated .RatedQuest .Selector div {
     visibility: visible !important;
     color: transparent;
     background-color: transparent !important;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .NavSection input, .NavSection button {
-    }
-    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .RatedQuest .Selector .Wrapper {
-        width: 1.1em !important;
-    }
-    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .buttonshape .RatedQuest .Selector .Wrapper {
-        width: 1.1em !important;
-        height: 1.1em !important;
-        border-radius: 20px !important;
-        line-height: 2.1em;
-        padding-top: 0px !important;
 
-    }
-    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-        height: auto !important;
-        width: auto !important;
-    }
-    
-    .Span {
-       
-    }
-    .Point07 .ResponseSet {
-        margin: 0;
-    }
-    .LangSelect {
-        top: 0px;
-    }
-    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
-        height: auto !important;
-    }
-    
-}
+/* Extra small devices (phones, 600px and down) */
+
+
+/* Extra small mobile devices ( less than 580px)*/
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -113,13 +83,7 @@ td.Mobile.Label.Left {
     .LangSelect {
         top: 0px;
     }
-    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-    }
-    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
-    }
-    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
-       
-    }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -131,12 +95,7 @@ td.Mobile.Label.Left {
         max-width: 60px;
         font-size: .8em;
     }
-    .Span {
-    }
-    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-    }
-    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .EmojiRated .RatedQuest .Selector .Wrapper {
-    }
+   
 }
 @media (min-width: 1000px) {
     
@@ -149,21 +108,397 @@ td.Mobile.Label.Left {
     td.Label.Center {
         max-width: 60px;
     }
-    td.Selector {
-        
-    }
+  
     .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .buttonshape .RatedQuest .Selector .Wrapper {
        margin: 0 auto;
     }
-    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
-
-    }
+    
     .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .RatedQuest .Selector .Wrapper {
         margin: 0 auto;
     }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 35px;
+        width: 40px;
+    }
+    .Allrestro{
+        text-align: center;
+    }
 }
+
+@media only screen and (max-width:1180px){
+
+}
+
+
+
+/*for tablets*/
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .FullExpand.SixButtons .DemoResp{
+        width: 160px;
+    }    
+}
+@media only screen and (min-width: 800px) {
+    .Instruction h3{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:768px)
+{
+    .Instruction h3{
+        font-size: 24px;
+    }
+    #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 ,.other{
+        height: 54.8px;
+    }
+    #dfd647e3d2b3427c9db4ea14105f501c .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .other .Wrapper{
+        height: 37.4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 48px;
+        width: 55px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
+        height: 48px;
+        width: 55px;
+    }
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 5px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
+        height: 35px;
+        width: 35px;
+    }
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 15px;
+    }
+}
+@media screen and (max-width:712px){
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 12px;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 35px;
+        width: 35px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
+        height: 35px;
+        width: 35px;
+    }
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 6px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .RatedQuest .Selector .Wrapper {
+        width: 1.1em !important;
+    }
+    .Point07.LH .RatedQuest .Selector .Wrapper, .Point07.HL .buttonshape .RatedQuest .Selector .Wrapper {
+        width: 1.1em !important;
+        height: 1.1em !important;
+        border-radius: 20px !important;
+        line-height: 2.1em;
+        padding-top: 0px !important;
 
+    }
+    .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
+        height: auto !important;
+        width: auto !important;
+    }
+    
+   
+    .Point07 .ResponseSet {
+        margin: 0;
+    }
+    .LangSelect {
+        top: 0px;
+    }
+    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
+        height: auto !important;
+    }
+    #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .ResponseSet .other{
+        height: 74.6px;
+    }
+    #dfd647e3d2b3427c9db4ea14105f501c .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .ResponseSet .other .Wrapper{
+        height: 78.56%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #c668090f1f3b49e3be67253a469f2aed , .print , #dcf3228d05c84962950e1c10b4d7a35d{
+        height: 54.6px;
+    }
+    #c668090f1f3b49e3be67253a469f2aed .Wrapper , .print .Wrapper, #dcf3228d05c84962950e1c10b4d7a35d .Wrapper{
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 9px;
+    }
+    .RatedQuest .RatedQuest{
+        margin-bottom: 15px;
+    }
+    .RatedQuest td.Mobile.Label.Left{
+        font-size: 12px;
+    }
+    .RatedQuest td.Mobile.Label.Right{
+        font-size: 12px;
+    }
+    .FullExpand .DemoQuest span{
+        font-size: 15px;
+    }
+    .Point07 .DemoQuest .DemoResp .Wrapper{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:590px)
+{
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 25px;
+        width:  25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 25px;
+        width: 25px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
+        height: 25px;
+        width: 25px;
+    }
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 15px;
+    }
+}
+@media screen and (max-width:500px){
+    .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 5px;
+    }
+}
+@media only screen and (max-width:470px){
+    .Instruction h3 {
+        font-size: 18px;
+        display: flex;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:444px){
+    .Instruction h3 {
+        font-size: 17px;
+        display: flex;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width:422px){
+    .Instruction h3 {
+        font-size: 16px;
+        display: flex;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 2px;
+    }
+    #c2749041b7cd4048a98a97c7b4731bd3{
+        height: 56.2px;
+    }
+}
+@media only screen and (max-width:400px){
+    .Instruction h3 {
+        font-size: 15px;
+        display: flex;
+        text-align: justify;
+    }
+    .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 2px;
+    }
+}
+@media only screen and (max-width:371px){
+    .Instruction h3 {
+        font-size: 14px;
+        display: flex;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:350px)
+{
+    .Instruction h3{
+        font-size: 12px;
+    }
+    .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0;
+    }
+}
+@media screen and (max-width:360px)
+{
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
+        height: 25px;
+        width:  10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
+        height: 25px;
+        width: 10px;
+    }
+    .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
+        height: 25px;
+        width: 10px;
+    }
+    .EmojiRated .RatedSection .RatedQuest .Selector{
+        margin: 0 4px;
+    }
 }
