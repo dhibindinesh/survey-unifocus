@@ -57,10 +57,6 @@ td.Mobile.Label.Left {
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-
-
-/* Extra small mobile devices ( less than 580px)*/
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -149,8 +145,13 @@ td.Mobile.Label.Left {
     }
 }
 
-@media only screen and (max-width:1180px){
-
+@media screen and (max-wdith:2500px)
+{
+    .Point07 .ResponseSet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -255,6 +256,15 @@ td.Mobile.Label.Left {
     .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 15px;
     }
+    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app{
+        height: 62.2px;
+    }
+    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper, .app .Wrapper{
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media screen and (max-width:712px){
     .EmojiRated .RatedSection .RatedQuest .Selector{
@@ -327,9 +337,10 @@ td.Mobile.Label.Left {
     .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
         height: auto !important;
     }
+    /*
     #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .ResponseSet .other{
         height: 74.6px;
-    }
+    }*/
     #dfd647e3d2b3427c9db4ea14105f501c .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .ResponseSet .other .Wrapper{
         height: 78.56%;
         display: flex;
@@ -427,6 +438,15 @@ td.Mobile.Label.Left {
         font-size: 16px;
         display: flex;
         text-align: justify;
+    }
+    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app{
+        height: 68.8px;
+    }
+    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper , .app .Wrapper{
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media screen and (max-width:400px)
