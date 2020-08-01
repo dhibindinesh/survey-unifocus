@@ -169,6 +169,7 @@ td.Mobile.Label.Left {
         font-size: 25px;
     }
 }
+
 @media screen and (min-width:768px)
 {
     .Instruction h3{
@@ -256,11 +257,11 @@ td.Mobile.Label.Left {
     .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 15px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app{
+    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app , #dbe71de6521e46a6b9ea2657b86697c5{
         height: 62.2px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper, .app .Wrapper{
-        height: 37px;
+    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper, .app .Wrapper , #dbe71de6521e46a6b9ea2657b86697c5 .Wrapper{
+        height: 46px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -439,14 +440,17 @@ td.Mobile.Label.Left {
         display: flex;
         text-align: justify;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app{
+    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app , #dbe71de6521e46a6b9ea2657b86697c5 , #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .other{
         height: 68.8px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper , .app .Wrapper{
+    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper , .app .Wrapper , #dbe71de6521e46a6b9ea2657b86697c5 .Wrapper , #dfd647e3d2b3427c9db4ea14105f501c  .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .other .Wrapper{
         height: 53px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .FullExpand.SixButtons .DemoResp{
+        width: calc(33.33% - 4px);
     }
 }
 @media screen and (max-width:400px)
