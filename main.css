@@ -69,7 +69,7 @@ td.Mobile.Label.Left {
         width: auto !important;
     }
     .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
-        height: auto !important;
+        height: 35px !important;
         background-size: 100% 100% !important;
     }
 }
@@ -78,6 +78,10 @@ td.Mobile.Label.Left {
 @media only screen and (min-width: 768px) {
     .LangSelect {
         top: 0px;
+    }
+    .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
+        height: 48px !important;
+        background-size: 100% 100% !important;
     }
     
 }
@@ -336,7 +340,7 @@ td.Mobile.Label.Left {
         top: 0px;
     }
     .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
-        height: auto !important;
+        height: 20px !important;
     }
     /*
     #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .ResponseSet .other{
@@ -379,35 +383,35 @@ td.Mobile.Label.Left {
 @media screen and (max-width:590px)
 {
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
-        height: 25px;
+        height: 20px;
         width:  25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
-        height: 25px;
+        height: 20px;
         width: 25px;
     }
     .EmojiRated .RatedSection .RatedQuest .Selector{
@@ -491,35 +495,35 @@ td.Mobile.Label.Left {
 @media screen and (max-width:360px)
 {
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(7) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(9) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(11) div{
-        height: 25px;
+        height: 16px;
         width:  10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(13) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(15) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(17) div{
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(19) .Wrapper {
-        height: 25px;
+        height: 16px;
         width: 10px;
     }
     .EmojiRated .RatedSection .RatedQuest .Selector{
