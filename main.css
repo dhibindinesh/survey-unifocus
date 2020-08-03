@@ -376,6 +376,9 @@ td.Mobile.Label.Left {
 }
 @media screen and (max-width:590px)
 {
+    .ContentCard {
+        margin-top: 70px;
+    }
     .Point07.HL .EmojiRated .RatedQuest .Selector:nth-child(5) div{
         height: 20px;
         width: 25px;
