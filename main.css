@@ -1,6 +1,5 @@
 .SrvHeader {
-    margin-top: 0px;
-    top: 0px;
+    top: 100px;
 }
 h3 {
     padding-top: 0px;
@@ -61,8 +60,10 @@ td.Mobile.Label.Left {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .ContentCard {
+        margin-top: 70px;
+    }
     .LangSelect {
-        top: 0px;
     }
     .Point07.LH .EmojiRated .RatedQuest .Selector, .Point07.HL .EmojiRated .RatedQuest .Selector {
         height: auto !important;
@@ -76,9 +77,6 @@ td.Mobile.Label.Left {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .LangSelect {
-        top: 0px;
-    }
     .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
         height: 48px !important;
         background-size: 100% 100% !important;
@@ -88,9 +86,7 @@ td.Mobile.Label.Left {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .LangSelect {
-        top: 100px;
-    }
+
     td.Label.Center {
         max-width: 60px;
         font-size: .8em;
@@ -336,9 +332,7 @@ td.Mobile.Label.Left {
     .Point07 .ResponseSet {
         margin: 0;
     }
-    .LangSelect {
-        top: 0px;
-    }
+
     .PRSection .EmojiRated .DemoResp .Wrapper.active, .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector .Wrapper.active, .DemoQuest .EmojiRated .DemoResp .Wrapper .active {
         height: 20px !important;
     }
