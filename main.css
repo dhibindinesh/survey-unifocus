@@ -255,7 +255,7 @@ td.Mobile.Label.Left {
     .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 15px;
     }
-    .hotel , .app , .reserv{
+    /* .hotel , .app , .reserv{
         height: 62.2px;
     }
     .hotel .Wrapper, .app .Wrapper , .reserv .Wrapper{
@@ -263,7 +263,7 @@ td.Mobile.Label.Left {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 }
 @media screen and (max-width:712px){
     .EmojiRated .RatedSection .RatedQuest .Selector{
@@ -338,12 +338,12 @@ td.Mobile.Label.Left {
     #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .ResponseSet .other{
         height: 74.6px;
     }*/
-    .agent .Wrapper , .party .Wrapper , .ResponseSet .other .Wrapper{
+    /* .agent .Wrapper , .party .Wrapper , .ResponseSet .other .Wrapper{
         height: 78.56%;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
     .social , .print , .ads{
         height: 54.6px;
     }
@@ -440,7 +440,7 @@ td.Mobile.Label.Left {
         display: flex;
         text-align: justify;
     }
-    .hotel , .app , .reserv , .agent , .party , .other{
+    /* .hotel , .app , .reserv , .agent , .party , .other{
         height: 68.8px;
     }
     .hotel .Wrapper , .app .Wrapper , .reserv .Wrapper , .agent  .Wrapper , .party .Wrapper , .other .Wrapper{
@@ -448,7 +448,7 @@ td.Mobile.Label.Left {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
     .FullExpand.SixButtons .DemoResp{
         width: calc(33.33% - 4px);
     }
