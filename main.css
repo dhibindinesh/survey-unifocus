@@ -458,9 +458,9 @@ td.Mobile.Label.Left {
     .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 2px;
     }
-    #c2749041b7cd4048a98a97c7b4731bd3{
+    /* #c2749041b7cd4048a98a97c7b4731bd3{
         height: 56.2px;
-    }
+    } */
 }
 @media only screen and (max-width:400px){
     .Instruction h3 {
