@@ -173,10 +173,10 @@ td.Mobile.Label.Left {
     .Instruction h3{
         font-size: 24px;
     }
-    #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 ,.other{
+    .agent , .party ,.other{
         height: 54.8px;
     }
-    #dfd647e3d2b3427c9db4ea14105f501c .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .other .Wrapper{
+    .agent .Wrapper , .party .Wrapper , .other .Wrapper{
         height: 37.4px;
         display: flex;
         justify-content: center;
@@ -255,10 +255,10 @@ td.Mobile.Label.Left {
     .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 15px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app , #dbe71de6521e46a6b9ea2657b86697c5{
+    .hotel , .app , .reserv{
         height: 62.2px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper, .app .Wrapper , #dbe71de6521e46a6b9ea2657b86697c5 .Wrapper{
+    .hotel .Wrapper, .app .Wrapper , .reserv .Wrapper{
         height: 46px;
         display: flex;
         align-items: center;
@@ -338,16 +338,16 @@ td.Mobile.Label.Left {
     #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .ResponseSet .other{
         height: 74.6px;
     }*/
-    #dfd647e3d2b3427c9db4ea14105f501c .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .ResponseSet .other .Wrapper{
+    .agent .Wrapper , .party .Wrapper , .ResponseSet .other .Wrapper{
         height: 78.56%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #c668090f1f3b49e3be67253a469f2aed , .print , #dcf3228d05c84962950e1c10b4d7a35d{
+    .social , .print , .ads{
         height: 54.6px;
     }
-    #c668090f1f3b49e3be67253a469f2aed .Wrapper , .print .Wrapper, #dcf3228d05c84962950e1c10b4d7a35d .Wrapper{
+    .social .Wrapper , .print .Wrapper, .ads .Wrapper{
         height: 38px;
         display: flex;
         justify-content: center;
@@ -412,6 +412,7 @@ td.Mobile.Label.Left {
     .EmojiRated .RatedSection .RatedQuest .Selector{
         margin: 0 15px;
     }
+    
 }
 @media screen and (max-width:500px){
     .Point07.HL .EmojiRated .RatedSection .RatedQuest .Selector{
@@ -439,10 +440,10 @@ td.Mobile.Label.Left {
         display: flex;
         text-align: justify;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b , .app , #dbe71de6521e46a6b9ea2657b86697c5 , #dfd647e3d2b3427c9db4ea14105f501c , #f50d83405c964628a1f7c4952d649372 , .other{
+    .hotel , .app , .reserv , .agent , .party , .other{
         height: 68.8px;
     }
-    #f8ed5f1e72a74e2fb99a610e5e310a1b .Wrapper , .app .Wrapper , #dbe71de6521e46a6b9ea2657b86697c5 .Wrapper , #dfd647e3d2b3427c9db4ea14105f501c  .Wrapper , #f50d83405c964628a1f7c4952d649372 .Wrapper , .other .Wrapper{
+    .hotel .Wrapper , .app .Wrapper , .reserv .Wrapper , .agent  .Wrapper , .party .Wrapper , .other .Wrapper{
         height: 53px;
         display: flex;
         align-items: center;
